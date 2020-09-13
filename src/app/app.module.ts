@@ -16,7 +16,8 @@ import { ContactListComponent } from './contacts/contact-list/contact-list.compo
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpModule
   ],
   providers: [],
   bootstrap: [AppComponent]
